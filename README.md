@@ -4,34 +4,6 @@ Current research focuses mainly on read operations and ignores other aspects of 
 
 
 
-## Citation
-
-If you use CRUDSQL，please cite the following work:
-
-[Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query](https://aclanthology.org/2024.findings-naacl.214.pdf)
-
-```
-@inproceedings{chen2024beyond,
-  title={Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query},
-  author={Chen, Xi and You, Jinguo and Likun, Likun and Li, Xiang},
-  booktitle={Findings of the Association for Computational Linguistics: NAACL 2024},
-  pages={3383--3393},
-  year={2024}
-}
-```
-
-[TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation](https://arxiv.org/abs/2006.06434)
-
-```
-@misc{sun2020tableqa,
-    title={TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation},
-    author={Ningyuan Sun and Xuefeng Yang and Yunfeng Liu},
-    year={2020},
-    eprint={2006.06434},
-    archivePrefix={arXiv},
-    primaryClass={cs.DB}
-}
-```
 
 
 
@@ -171,6 +143,34 @@ operator_dict = {0:">", 1:"<", 2:"=", 3:"!="}
 agg_dict = {0:"", 1:"AVG", 2:"MAX", 3:"MIN", 4:"COUNT", 5:"SUM"}
 cond_conn_op_dict = {0:"", 1:"and", 2:"or"}
 update_operator_dict = {0:"", 1:"+", 2:"-"}
+```
+## Citation
+
+If you use CRUDSQL，please cite the following work:
+
+[Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query](https://aclanthology.org/2024.findings-naacl.214.pdf)
+
+```
+@inproceedings{chen2024beyond,
+  title={Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query},
+  author={Chen, Xi and You, Jinguo and Likun, Likun and Li, Xiang},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2024},
+  pages={3383--3393},
+  year={2024}
+}
+```
+
+[TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation](https://arxiv.org/abs/2006.06434)
+
+```
+@misc{sun2020tableqa,
+    title={TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation},
+    author={Ningyuan Sun and Xuefeng Yang and Yunfeng Liu},
+    year={2020},
+    eprint={2006.06434},
+    archivePrefix={arXiv},
+    primaryClass={cs.DB}
+}
 ```
 
 
